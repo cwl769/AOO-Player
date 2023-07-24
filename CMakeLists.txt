@@ -24,7 +24,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 #    endif()
 #endif()
 
-find_package(Qt5 COMPONENTS Widgets LinguistTools REQUIRED)
+find_package(Qt5 COMPONENTS Widgets LinguistTools Multimedia REQUIRED)
 
 set(TS_FILES AOO-Player_zh_CN.ts)
 
@@ -46,6 +46,6 @@ else()
   )
 endif()
 
-target_link_libraries(AOO-Player PRIVATE Qt5::Widgets)
+target_link_libraries(AOO-Player PRIVATE Qt5::Widgets Qt5::Multimedia)
 
 qt5_create_translation(QM_FILES ${CMAKE_SOURCE_DIR} ${TS_FILES})

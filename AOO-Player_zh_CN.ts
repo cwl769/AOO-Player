@@ -5,12 +5,22 @@
     <name>MainWindow</name>
     <message>
         <location filename="mainwindow.ui" line="14"/>
-        <source>MainWindow</source>
+        <source>AOO-Player</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="27"/>
-        <source>Click</source>
+        <location filename="mainwindow.ui" line="65"/>
+        <source>选择文件</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="72"/>
+        <source>选择文件夹</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="36"/>
+        <source>File(*.flac* *.mp3*)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
